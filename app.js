@@ -10,6 +10,7 @@ let input = ["bat", "tap", "cat", "tab", "pat"]
 // // input.splice(2,1)
 // // console.log(input)
 
+console.log("UserInput", input)
 let res = []
 
 
@@ -31,5 +32,5 @@ for (let i = 0; i < input.length; i++) {
 
 }
 
-console.log(res)
+console.log("Result", res)
 document.write("Check Console for result")
